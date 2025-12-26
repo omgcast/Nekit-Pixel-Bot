@@ -14,9 +14,9 @@ Tested (wip)
 
 **Nekit Pixel Bot** is an external automation tool designed for **World of Warcraft 7.3.5 (Legion)**  **8.3.7 (Battle for Azeroth)** **World of Warcraft 9.2.7 (Shadowlands)**. It works in conjunction with a modified version of the **Hekili** addon.
 
-> ⚠️ **BETA VERSION** This software is currently in Beta. Use at your own risk.
+> ⚠️ **BETA VERSION** This software is currently in Beta.
 > 
-> ⚠️ **БЕТА ВЕРСИЯ**  Программа находится в стадии тестирования.
+
 
 ---
 
