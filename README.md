@@ -1,10 +1,10 @@
 # Nekit Pixel Bot (based on Hekili)
 
-![Status](https://img.shields.io/badge/Status-BETA-orange?style=for-the-badge) ![WoW](https://img.shields.io/badge/WoW-7.3.5%20%7C%208.3.7-red?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-BETA-orange?style=for-the-badge) ![WoW](https://img.shields.io/badge/WoW-7.3.5%20%7C%208.3.7%20%7C%209.2.7-red?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
 
 tested: wowcircle.net, uwow.biz, ... (wip)
 
-**Nekit Pixel Bot** is an external automation tool designed for **World of Warcraft 7.3.5 (Legion)** and **8.3.7 (Battle for Azeroth)**. It works in conjunction with a modified version of the **Hekili** addon.
+**Nekit Pixel Bot** is an external automation tool designed for **World of Warcraft 7.3.5 (Legion)**  **8.3.7 (Battle for Azeroth)** **World of Warcraft 9.2.7 (Shadowlands)**. It works in conjunction with a modified version of the **Hekili** addon.
 
 > ⚠️ **BETA VERSION** This software is currently in Beta. Use at your own risk.
 > 
@@ -26,7 +26,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ```
 
 ### Features
-* **Multi-Expansion Support:** Compatible with **Legion (7.3.5)** and **BFA (8.3.7)**.
+* **Multi-Expansion Support:** Compatible with **Legion (7.3.5)**   **BFA (8.3.7)** **SL (9.2.7)**.
 * **Safety:** Randomized delays and inputs to simulate human behavior.
 * **Smart Casting:** Prevents interruption of channeling spells.
 * **Performance:** High-speed pixel capture using `mss`.
@@ -34,7 +34,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ### Installation
 
 #### 1. The Addon (Lua)
-1.  Download the standard **Hekili** addon compatible with your client version (**7.3.5** or **8.3.7**).
+1.  Download the standard **Hekili** addon compatible with your client version (**7.3.5** or ****).
 2.  Navigate to your WoW folder: `Interface\AddOns\Hekili\`.
 3.  **Replace** the original `Hekili.lua` file with the one provided in the `Hekili_Mod` folder of this repository.
 4.  **REQUIRED:** Set WoW Video settings to **Windowed** or **Windowed (Fullscreen)**. *Exclusive Fullscreen is not supported.*
@@ -59,7 +59,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ```
 
 ### Возможности
-* **Поддержка версий:** Работает на **Legion (7.3.5)** и **BFA (8.3.7)**.
+* **Поддержка версий:** Работает на **Legion (7.3.5)**  **BFA (8.3.7)** **SL (9.2.7)**.
 * **Безопасность:** Рандомизация задержек для имитации действий человека.
 * **Умный каст:** Не прерывает потоковые заклинания (channeling).
 * **Быстродействие:** Быстрый захват экрана через `mss`.
@@ -67,7 +67,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ### Установка
 
 #### 1. Аддон (Lua)
-1.  Скачайте обычный аддон **Hekili** для вашей версии игры (**7.3.5** или **8.3.7**).
+1.  Скачайте обычный аддон **Hekili** для вашей версии игры (**7.3.5**   **8.3.7**  **9.2.7**).
 2.  Откройте папку с аддонами: `Interface\AddOns\Hekili\`.
 3.  **Замените** оригинальный файл `Hekili.lua` на файл из папки `Hekili_Mod` этого репозитория.
 4.  **ВАЖНО:** В настройках графики WoW выберите режим **"Оконный"** или **"Оконный (весь экран)"**. В полноэкранном режиме бот не увидит пиксель!
