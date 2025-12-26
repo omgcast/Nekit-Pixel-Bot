@@ -1,5 +1,7 @@
 # Nekit Pixel Bot (based on Hekili)
 
+[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-Buy%20Me%20A%20Beer-ff8c00?style=for-the-badge&logo=donation-alerts&logoColor=white)](https://www.donationalerts.com/r/n3kit91)
+
 ![Status](https://img.shields.io/badge/Status-BETA-orange?style=for-the-badge) ![WoW](https://img.shields.io/badge/WoW-7.3.5%20%7C%208.3.7%20%7C%209.2.7-red?style=for-the-badge) ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
 
 Tested (wip)
