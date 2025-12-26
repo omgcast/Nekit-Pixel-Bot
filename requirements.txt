@@ -1,0 +1,5 @@
+flet==0.28.3
+flet-desktop==0.28.3
+keyboard==0.13.5
+mss==10.1.0
+numpy==2.2.6
