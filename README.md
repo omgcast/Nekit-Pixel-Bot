@@ -51,7 +51,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 
 ### 🐛 Known Issues (Bugs)
 * **Function Keys:** The bot may currently fail to press **F10**, **F11**, and **F12**.
-    * *Status: Fix coming soon.*
+    * *Fix coming soon.*
 
 ### 📥 Installation
 
@@ -94,7 +94,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 
 ### 🐛 Известные баги
 * **Клавиши F:** На данный момент бот может не прожимать клавиши **F10**, **F11**, **F12**.
-    * *Статус: Скоро исправим.*
+    * *Скоро исправим.*
 
 ### 📥 Установка
 
