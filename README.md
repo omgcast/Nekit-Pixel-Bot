@@ -37,7 +37,7 @@
 
 ## 🇺🇸 English Instructions
 
-### ⚡ IMPORTANT / REQUIRED
+### ⚡ IMPORTANT
 To prevent Lua error pop-ups from interrupting the bot or blocking the screen, **you must run this command** in the game chat once:
 ```text
 /console scriptErrors 0
@@ -80,7 +80,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 
 ## 🇷🇺 Инструкция на русском
 
-### ⚡ ВАЖНО / ОБЯЗАТЕЛЬНО
+### ⚡ ВАЖНО 
 Чтобы ошибки интерфейса (Lua errors) не всплывали по центру экрана и не мешали работе бота, **обязательно пропишите** в чате игры следующую команду:
 ```text
 /console scriptErrors 0
