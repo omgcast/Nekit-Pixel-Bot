@@ -6,10 +6,6 @@
 [![Status](https://img.shields.io/badge/Status-BETA-orange?style=for-the-badge)](https://github.com/n3kit91/NekitPixelBot)
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)](https://microsoft.com)
 
-![WoW Legion](https://img.shields.io/badge/Legion-7.3.5-blue?style=flat-square)
-![WoW BFA](https://img.shields.io/badge/BFA-8.3.7-blue?style=flat-square)
-![WoW SL](https://img.shields.io/badge/Shadowlands-9.2.7-blue?style=flat-square)
-![WoW DF](https://img.shields.io/badge/Dragonflight-10.2.7-blue?style=flat-square)
 
 </div>
 
