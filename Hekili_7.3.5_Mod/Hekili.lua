@@ -71,7 +71,7 @@ end
 
 ns.Tooltip = CreateFrame( "GameTooltip", "HekiliTooltip", UIParent, "GameTooltipTemplate" )
 
--- PIXEL BRIDGE:
+-- PIXEL BRIDGE: [Legion 7.3.5 EDITION]
 local function CreateBridge()
     if HekiliBridgeFrame then HekiliBridgeFrame:Hide() end
     
