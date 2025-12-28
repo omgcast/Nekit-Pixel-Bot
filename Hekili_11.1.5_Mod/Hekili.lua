@@ -1,5 +1,3 @@
--- Hekili.lua
--- July 2024
 
 local addon, ns = ...
 Hekili = LibStub("AceAddon-3.0"):NewAddon( "Hekili", "AceConsole-3.0", "AceSerializer-3.0" )
@@ -74,7 +72,6 @@ ns.lib = {
 }
 
 
--- 04072017:  Let's go ahead and cache aura information to reduce overhead.
 ns.auras = {
     target = {
         buff = {},
@@ -257,10 +254,8 @@ function Hekili:SaveDebugSnapshot( dispName )
 				v.log[ i ] = nil
 			end
 
-            -- Store previous spell data.
             local prevString = "\nprevious_spells:"
 
-            -- Skip over the actions in the "prev" table that were added to computed the next recommended ability in the queue.
             local i, j = ( #state.predictions + 1 ), 1
             local spell = state.prev[i].spell or "no_action"
 
@@ -278,7 +273,6 @@ function Hekili:SaveDebugSnapshot( dispName )
 
             insert( v.log, 1, prevString )
 
-            -- Store aura data.
             local auraString = "\n### Auras ###\n"
 
             local now = GetTime()
@@ -659,21 +653,18 @@ Hekili:ProfileFrame( "HekiliTooltip", ns.Tooltip )
 
 -- PIXEL BRIDGE [The War Within 11.1.5 EDITION]
 local function CreateBridge()
-    -- Удаляем старый фрейм, если он существует, чтобы не дублировать
     if HekiliBridgeFrame then HekiliBridgeFrame:Hide() end
 
     local f = CreateFrame("Frame", "HekiliBridgeFrame", UIParent)
-    f:SetSize(2, 2) -- Размер 2x2 пикселя
-    f:SetPoint("TOPLEFT", 0, 0) -- Позиция в верхнем левом углу
+    f:SetSize(1, 1) 
+    f:SetPoint("TOPLEFT", 0, 0) 
     f:SetFrameStrata("TOOLTIP")
-    f:SetFrameLevel(9999) -- Поверх всего интерфейса
+    f:SetFrameLevel(9999) 
     f.tex = f:CreateTexture()
     f.tex:SetAllPoints()
 
-    -- Задержка перед следующим кастом (Lag Tolerance)
     local CAST_QUEUE = 0.2 
 
-    -- Карта клавиш (Key IDs)
     local KEY_MAP = {
         ["1"]=1, ["2"]=2, ["3"]=3, ["4"]=4, ["5"]=5, ["6"]=6, ["7"]=7, ["8"]=8, ["9"]=9, ["0"]=10,
         ["Q"]=11, ["W"]=12, ["E"]=13, ["R"]=14, ["T"]=15, ["Y"]=16, ["U"]=17, ["I"]=18, ["O"]=19, ["P"]=20,
@@ -685,31 +676,24 @@ local function CreateBridge()
         ["F10"]=57, ["F11"]=58, ["F12"]=59,
     }
     
-    -- Карта модификаторов (Mod IDs)
     local MOD_MAP = { ["S"]=1, ["C"]=2, ["A"]=3, ["SC"]=4, ["SA"]=5, ["CA"]=6 }
 
     f:SetScript("OnUpdate", function(self)
-        -- По умолчанию цвет фиолетовый (1, 0, 1) - означает "Ждать" или "Нет действия"
         self.tex:SetColorTexture(1, 0, 1, 1)
 
-        -- Проверка текущего каста игрока
         local name, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible, spellId = UnitCastingInfo("player")
         if name then
             local finish = endTime / 1000
             local remain = finish - GetTime()
-            -- Если до конца каста осталось больше чем CAST_QUEUE, ждем (не меняем цвет)
             if remain > CAST_QUEUE then return end
         end
 
-        -- Если игрок поддерживает потоковое заклинание (Channeling), не прерываем
         if UnitChannelInfo("player") then return end
 
         local rec = nil
         
-        -- Безопасная проверка наличия таблиц Hekili
         if not ns or not ns.UI or not ns.UI.Displays then return end
 
-        -- Приоритет дисплеев: сначала смотрим Primary, потом AOE, и т.д.
         local displayPriority = { "Primary", "AOE", "Single", "Cooldowns", "Defensives", "Interrupts" }
         
         for _, displayName in ipairs(displayPriority) do
@@ -721,7 +705,6 @@ local function CreateBridge()
             end
         end
 
-        -- Если в приоритетных дисплеях пусто, проверяем все остальные
         if not rec then
             for _, display in pairs(ns.UI.Displays) do
                  if display.Recommendations and display.Recommendations[1] then
@@ -731,10 +714,8 @@ local function CreateBridge()
             end
         end
 
-        -- Если рекомендаций нет вообще, выходим (остается фиолетовый цвет)
         if not rec then return end
         
-        -- Проверки цели: существует, не мертва, враждебна
         if not UnitExists("target") or UnitIsDead("target") or UnitIsFriend("player", "target") then return end
 
         local bind = rec.keybind
@@ -742,14 +723,12 @@ local function CreateBridge()
         if not bind or bind == "" then return end
 
         bind = bind:upper()
-        -- Разделяем модификатор и клавишу (например, "A-1" -> mod="A", key="1")
         local mod, key = bind:match("([^%-]+)%-(.+)")
         if not key then key = bind end
 
         local kId = KEY_MAP[key] or 0
         local mId = MOD_MAP[mod] or 0
 
-        -- Установка цвета: Red = ID клавиши, Green = ID модификатора, Blue = 1 (маркер)
         if kId > 0 then
             self.tex:SetColorTexture(kId/255, mId/255, 1, 1)
         else
@@ -758,7 +737,6 @@ local function CreateBridge()
     end)
 end
 
--- Загрузчик: ждет входа в мир и задержку 3 секунды перед созданием моста
 local loader = CreateFrame("Frame")
 loader:RegisterEvent("PLAYER_ENTERING_WORLD")
 loader:SetScript("OnEvent", function(self) 
