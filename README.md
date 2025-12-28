@@ -78,8 +78,9 @@
 
 | Expansion | Version | Tested |
 | :--- | :--- | :--- |
-| **Dragonflight** | 10.x | ✅ |
-| **Shadowlands** | 9.x | ✅ |
+| **The War Within** | 11.1.5 | ✅ |
+| **Dragonflight** | 10.2.7 | ✅ |
+| **Shadowlands** | 9.2.7 | ✅ |
 | **BFA** | 8.3.7 | ✅ |
 | **Legion** | 7.3.5 | ✅ |
 
