@@ -36,7 +36,7 @@
 #### 2. Running the Bot
 1. Download the latest [**Release**](https://github.com/omgcast/Nekit-Pixel-Bot/releases) or `python main.py`.
 2. Run as **Administrator**.
-3. Set **X: 1, Y: 1** in the bot (matches the pixel in top-left corner).
+3. Set **X: 0, Y: 0** in the bot (matches the pixel in top-left corner).
 4. Press **F6** (default) to toggle ON/OFF.
 
 > ****Important:** Do not assign game abilities to the bot launch key (default **F6**)!**
@@ -67,7 +67,7 @@
 #### 2. Запуск бота
 1. Скачайте последний [**Релиз**](https://github.com/omgcast/Nekit-Pixel-Bot/releases) или запустите `python main.py`.
 2. Запустите от имени **Администратора**.
-3. В программе выставьте координаты **X: 1, Y: 1** (пиксель в левом верхнем углу).
+3. В программе выставьте координаты **X: 0, Y: 0** (пиксель в левом верхнем углу).
 4. Нажмите **F6** (по умолчанию) для включения/выключения.
 
 > ****Важно:** Не назначайте игровые способности на клавишу запуска бота (по умолчанию **F6**)!**
