@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-Support%20Me-ff8c00?style=for-the-badge&logo=donation-alerts&logoColor=white)](https://www.donationalerts.com/r/n3kit91)
+
 ![Status](https://img.shields.io/badge/Status-BETA-orange?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
 
