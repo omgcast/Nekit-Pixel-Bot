@@ -1,3 +1,12 @@
+ ### Disclaimer
+
+*This software is for educational purposes only. Use on private servers or official realms is at your own risk. Automation tools may violate Blizzard's Terms of Service.*
+
+
+### Предупреждение
+
+*Данное программное обеспечение предназначено исключительно для образовательных целей. Использование на частных серверах или официальных игровых мирах осуществляется на ваш собственный риск. Инструменты автоматизации могут нарушать Условия предоставления услуг Blizzard.* 
+
 # Nekit Pixel Bot (Hekili based)
 
 [ **English** ](#-english) | [ **Русский** ](#-русский)
@@ -30,7 +39,7 @@
 3. Set **X: 1, Y: 1** in the bot (matches the pixel in top-left corner).
 4. Press **F6** to toggle ON/OFF.
 
-> **Important:** Do not assign game abilities to the bot launch key (default **F6**)!
+> ****Important:** Do not assign game abilities to the bot launch key (default **F6**)!**
 
 ---
 
@@ -61,7 +70,7 @@
 3. В программе выставьте координаты **X: 1, Y: 1** (пиксель в левом верхнем углу).
 4. Нажмите **F6** (по умолчанию) для включения/выключения.
 
-> **Важно:** Не назначайте игровые способности на клавишу запуска бота (по умолчанию **F6**)!
+> ****Важно:** Не назначайте игровые способности на клавишу запуска бота (по умолчанию **F6**)!**
 
 ---
 
@@ -74,4 +83,3 @@
 | **BFA** | 8.3.7 | ✅ |
 | **Legion** | 7.3.5 | ✅ |
 
-*Educational purposes only. Use at your own risk.*
