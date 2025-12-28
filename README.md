@@ -38,7 +38,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ```
 
 ### ✨ Features
-* **Multi-Expansion Support:** Compatible with Legion (7.3.5), BFA (8.3.7), SL (9.2.7), and DF (10.2.7).
+* **Multi-Expansion Support:** Compatible with Legion (7.3.5), BFA (8.3.7), SL (9.2.7), DF (10.2.7), ...
 * **Safety:** Randomized delays and inputs to simulate human behavior.
 * **Smart Casting:** Prevents interruption of channeling spells.
 * **Performance:** High-speed pixel capture using `mss`.
@@ -60,8 +60,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ### ⚙️ Setup & Usage
 1.  **Coordinates:** The addon draws a pixel at the top-left (0,0). Set Bot **X** to `1` and **Y** to `1`.
 2.  **Keybindings:** Ensure your action bars use standard keys:
-    * `1` - `9`, `0`, `-`, `=`
-    * `Q`, `E`, `R`, `F`, `Z`, `X`, `C`, `V`
+    * `1` - `9`, `0`, `-`, `=`, `f10` ...
 3.  **Control:** Press **F6** to Start/Stop the bot.
 
 > ⛔ **CRITICAL NOTE:**
@@ -79,7 +78,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ```
 
 ### ✨ Возможности
-* **Поддержка версий:** Работает на Legion (7.3.5), BFA (8.3.7), SL (9.2.7), DF (10.2.7).
+* **Поддержка версий:** Работает на Legion (7.3.5), BFA (8.3.7), SL (9.2.7), DF (10.2.7), ...
 * **Безопасность:** Рандомизация задержек для имитации действий человека.
 * **Умный каст:** Не прерывает потоковые заклинания (channeling).
 * **Быстродействие:** Быстрый захват экрана через `mss`.
@@ -100,8 +99,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 ### ⚙️ Настройка и использование
 1.  **Координаты:** Аддон рисует цветовой код в углу экрана. В программе выставьте **X: 1** и **Y: 1** (если не работает, попробуйте 0 или 2).
 2.  **Клавиши:** Бот нажимает стандартные клавиши. Расставьте способности в игре на эти кнопки:
-    * `1` - `9`, `0`, `-`, `=`
-    * `Q`, `E`, `R`, `F`, `Z`, `X`, `C`, `V`
+   * `1` - `9`, `0`, `-`, `=`, `f10` ...
 3.  **Управление:** Нажмите **F6** (по умолчанию), чтобы включить или выключить бота.
 
 > ⛔ **КРИТИЧЕСКИ ВАЖНО:**
