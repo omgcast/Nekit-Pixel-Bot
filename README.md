@@ -9,7 +9,7 @@
 ## 🇺🇸 English
 
 ### ⚠️ Requirements
-1. [**Logitech G HUB**](https://www.logitechg.com/en-us/software/ghub)  OR  [use search](https://www.google.com/search?q=Logitech+G+HUB+Download) installed (needed for drivers). The app itself can be closed.
+1. [**Logitech G HUB**](https://www.logitechg.com/en-us/software/ghub)  OR  [use search](https://www.google.com/search?q=Logitech+G+HUB+Download) installed (needed for drivers). The app itself can be closed. `tested on version 2025.9.814157`
 2. **Windowed** or **Windowed (Fullscreen)** mode in WoW.
 
 ### 🚀 Installation & Usage
@@ -39,7 +39,7 @@
 **Внешний пиксель-бот для WoW на базе Hekili.**
 
 ### ⚠️ Требования
-1. Установленный [**Logitech G HUB**](https://www.logitechg.com/en-us/software/ghub)  ИЛИ  [Используйте поиск](https://www.google.com/search?q=Logitech+G+HUB+Download) (нужен для драйверов). Само приложение можно закрыть.
+1. Установленный [**Logitech G HUB**](https://www.logitechg.com/en-us/software/ghub)  ИЛИ  [Используйте поиск](https://www.google.com/search?q=Logitech+G+HUB+Download) (нужен для драйверов). Само приложение можно закрыть. `Протестировано на версии 2025.9.814157`
 2. Режим экрана в WoW: **Оконный** или **Оконный (весь экран)**.
 
 
