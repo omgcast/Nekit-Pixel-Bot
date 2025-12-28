@@ -329,7 +329,7 @@ local function CreateBridge()
     if HekiliBridgeFrame then HekiliBridgeFrame:Hide() end
 
     local f = CreateFrame("Frame", "HekiliBridgeFrame", UIParent)
-    f:SetSize(2, 2)
+    f:SetSize(1, 1)
     f:SetPoint("TOPLEFT", 0, 0)
     f:SetFrameStrata("TOOLTIP")
     f:SetFrameLevel(9999)
