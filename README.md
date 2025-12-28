@@ -43,9 +43,7 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 * **Smart Casting:** Prevents interruption of channeling spells.
 * **Performance:** High-speed pixel capture using `mss`.
 
-### 🐛 Known Issues (Bugs)
-* **Function Keys:** The bot may currently fail to press **F10**, **F11**, and **F12**.
-    * *Fix coming soon.*
+
 
 ### 📥 Installation
 
@@ -86,9 +84,6 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 * **Умный каст:** Не прерывает потоковые заклинания (channeling).
 * **Быстродействие:** Быстрый захват экрана через `mss`.
 
-### 🐛 Известные баги
-* **Клавиши F:** На данный момент бот может не прожимать клавиши **F10**, **F11**, **F12**.
-    * *Скоро исправим.*
 
 ### 📥 Установка
 
