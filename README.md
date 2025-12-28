@@ -1,13 +1,6 @@
 # Nekit Pixel Bot (based on Hekili)
 
-<div align="center">
 
-
-![Status](https://img.shields.io/badge/Status-BETA-orange?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge)
-
-
-</div>
 
 ---
 
