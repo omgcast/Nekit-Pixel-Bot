@@ -16,7 +16,7 @@
 > ⚠️ **BETA VERSION**
 > This software is currently in Beta testing. Please report any issues you encounter.
 
-| Expansion | Version | Servers |
+| Expansion | Version | Tested servers: |
 | :--- | :--- | :--- |
 | **Dragonflight** | 10.2.7 | `firestorm-servers.com`, ... |
 | **Shadowlands** | 9.2.7 | `wowcircle.net`, ... |
