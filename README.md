@@ -74,7 +74,6 @@
 
 ---
 
-### Supported Versions / Поддерживаемые версии
 
 | Expansion | Version | Tested |
 | :--- | :--- | :--- |
