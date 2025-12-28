@@ -37,7 +37,7 @@
 1. Download the latest [**Release**](https://github.com/omgcast/Nekit-Pixel-Bot/releases) or `python main.py`.
 2. Run as **Administrator**.
 3. Set **X: 1, Y: 1** in the bot (matches the pixel in top-left corner).
-4. Press **F6** to toggle ON/OFF.
+4. Press **F6** (default) to toggle ON/OFF.
 
 > ****Important:** Do not assign game abilities to the bot launch key (default **F6**)!**
 
