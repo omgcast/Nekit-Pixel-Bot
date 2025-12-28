@@ -17,11 +17,11 @@
 
 ## 🇺🇸 English
 
-### ⚠️ Requirements
+###  Requirements
 1. [**Logitech G HUB**](https://www.logitechg.com/en-us/software/ghub)  OR  [use search](https://www.google.com/search?q=Logitech+G+HUB+Download) installed (needed for drivers). The app itself can be closed. `tested on version 2025.9.814157`
 2. **Windowed** or **Windowed (Fullscreen)** mode in WoW.
 
-### 🚀 Installation & Usage
+###  Installation & Usage
 
 #### 1. Game Setup
 1. Replace `Hekili.lua` in `Interface\AddOns\Hekili\` with the modified version from this repo.
@@ -47,12 +47,12 @@
 
 **Внешний пиксель-бот для WoW на базе Hekili.**
 
-### ⚠️ Требования
+###  Требования
 1. Установленный [**Logitech G HUB**](https://www.logitechg.com/en-us/software/ghub)  ИЛИ  [Используйте поиск](https://www.google.com/search?q=Logitech+G+HUB+Download) (нужен для драйверов). Само приложение можно закрыть.`Протестировано на версии 2025.9.814157`
 2. Режим экрана в WoW: **Оконный** или **Оконный (весь экран)**.
 
 
-### 🚀 Установка и Запуск
+###  Установка и Запуск
 
 #### 1. Настройка игры
 1. Замените `Hekili.lua` в папке `Interface\AddOns\Hekili\` на файл из этого репозитория.
