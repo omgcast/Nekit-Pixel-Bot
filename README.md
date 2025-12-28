@@ -16,7 +16,6 @@
 > ⚠️ **BETA VERSION**
 > This software is currently in Beta testing. Please report any issues you encounter.
 
-### 📋 Tested Servers / Протестировано
 | Expansion | Version | Servers |
 | :--- | :--- | :--- |
 | **Dragonflight** | 10.2.7 | `firestorm-servers.com`, ... |
@@ -26,7 +25,6 @@
 
 ---
 
-### 🌐 Select Language / Выберите язык
 [🇺🇸 **English Instructions**](#-english-instructions) | [🇷🇺 **Инструкция на русском**](#-инструкция-на-русском)
 
 ---
