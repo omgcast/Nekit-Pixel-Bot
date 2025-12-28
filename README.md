@@ -1,8 +1,10 @@
 # Nekit Pixel Bot (based on Hekili)
 
-> [🇺🇸 **English Instructions**](#-english-instructions) | [🇷🇺 **Инструкция на русском**](#-инструкция-на-русском)
+[ **English** ](#-english) | [ **Русский** ](#-русский)
 
 ---
+
+## 🇺🇸 English
 
 **Nekit Pixel Bot** is an external automation tool designed for **World of Warcraft**. It works in conjunction with a modified version of the **Hekili** addon to execute rotation perfectly.
 
@@ -15,10 +17,6 @@
 | **Shadowlands** | 9.2.7 | `wowcircle.net`, ... |
 | **Battle for Azeroth** | 8.3.7 | `wowcircle.net`, ... |
 | **Legion** | 7.3.5 | `uwow.biz`, `wowcircle.net`, ... |
-
----
-
-## 🇺🇸 English Instructions
 
 ### ⚡ IMPORTANT
 To prevent Lua error pop-ups from interrupting the bot or blocking the screen, **you must run this command** in the game chat once:
@@ -55,7 +53,19 @@ To prevent Lua error pop-ups from interrupting the bot or blocking the screen, *
 
 ---
 
-## 🇷🇺 Инструкция на русском
+## 🇷🇺 Русский
+
+**Nekit Pixel Bot** — это внешний инструмент автоматизации для **World of Warcraft**. Он работает в связке с модифицированной версией аддона **Hekili** для идеального исполнения ротации.
+
+> ⚠️ **БЕТА ВЕРСИЯ**
+> Программа находится в стадии бета-тестирования. Пожалуйста, сообщайте о любых найденных ошибках.
+
+| Дополнение | Версия | Проверенные серверы: |
+| :--- | :--- | :--- |
+| **Dragonflight** | 10.2.7 | `firestorm-servers.com`, ... |
+| **Shadowlands** | 9.2.7 | `wowcircle.net`, ... |
+| **Battle for Azeroth** | 8.3.7 | `wowcircle.net`, ... |
+| **Legion** | 7.3.5 | `uwow.biz`, `wowcircle.net`, ... |
 
 ### ⚡ ВАЖНО 
 Чтобы ошибки интерфейса (Lua errors) не всплывали по центру экрана и не мешали работе бота, **обязательно пропишите** в чате игры следующую команду:
