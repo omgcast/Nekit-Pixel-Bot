@@ -71,25 +71,27 @@ end
 
 ns.Tooltip = CreateFrame( "GameTooltip", "HekiliTooltip", UIParent, "GameTooltipTemplate" )
 
--- PIXEL BRIDGE [Legion 7.3.5 EDITION]
+-- PIXEL BRIDGE:
 local function CreateBridge()
     if HekiliBridgeFrame then HekiliBridgeFrame:Hide() end
     
     local f = CreateFrame("Frame", "HekiliBridgeFrame", UIParent)
-    f:SetSize(3, 3) 
+    f:SetSize(2, 2) 
     f:SetPoint("TOPLEFT", 0, 0) 
     f:SetFrameStrata("TOOLTIP")
     f:SetFrameLevel(9999)
     f.tex = f:CreateTexture()
     f.tex:SetAllPoints()
 
-    local KEY_MAP = {
+	local KEY_MAP = {
         ["1"]=1, ["2"]=2, ["3"]=3, ["4"]=4, ["5"]=5, ["6"]=6, ["7"]=7, ["8"]=8, ["9"]=9, ["0"]=10,
         ["Q"]=11, ["W"]=12, ["E"]=13, ["R"]=14, ["T"]=15, ["Y"]=16, ["U"]=17, ["I"]=18, ["O"]=19, ["P"]=20,
         ["A"]=21, ["S"]=22, ["D"]=23, ["F"]=24, ["G"]=25, ["H"]=26, ["J"]=27, ["K"]=28, ["L"]=29,
         ["Z"]=30, ["X"]=31, ["C"]=32, ["V"]=33, ["B"]=34, ["N"]=35, ["M"]=36,
         ["F1"]=37, ["F2"]=38, ["F3"]=39, ["F4"]=40, ["F5"]=41, ["F6"]=42, ["F7"]=43, ["F8"]=44, ["F9"]=45,
-        ["-"]=46, ["="]=47, ["`"]=48
+        ["-"]=46, ["="]=47, ["`"]=48,
+        ["["]=49, ["]"]=50, [";"]=51, ["'"]=52, [","]=53, ["."]=54, ["/"]=55, ["\\"]=56,
+        ["F10"]=57, ["F11"]=58, ["F12"]=59,
     }
     local MOD_MAP = { ["S"]=1, ["C"]=2, ["A"]=3, ["SC"]=4, ["SA"]=5, ["CA"]=6 }
 
