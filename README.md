@@ -1,3 +1,4 @@
+#Nekit Pixel Bot — Free WoW Auto Rotation Bot
  ### Disclaimer
 
 *This software is for educational purposes only. Use on private servers or official realms is at your own risk. Automation tools may violate Blizzard's Terms of Service.*
