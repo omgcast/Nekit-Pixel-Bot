@@ -1893,8 +1893,8 @@ end
 
 -- PIXEL BRIDGE [WotLK 3.3.5 BETA]
 local Bridge = CreateFrame("Frame", "OvaleBridgeFrame", UIParent)
-Bridge:SetWidth(1) 
-Bridge:SetHeight(1)
+Bridge:SetWidth(3) 
+Bridge:SetHeight(3)
 Bridge:SetPoint("TOPLEFT", 0, 0)
 Bridge:SetFrameStrata("TOOLTIP")
 Bridge:SetFrameLevel(9999)
